@@ -18,6 +18,7 @@ tryda Ostrava {
         toz cyslo nejvyc = mynymum(Pole.velikost(pole), pocet) pyco
         rubat (i < nejvyc) {
             vysledek[i] = pole[i] pyco
+            i = i + 1 pyco
         }
 
         davaj vysledek pyco
